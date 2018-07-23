@@ -1,2 +1,2 @@
 # ktello
-A wrapper for DJI / Ryzetech Tello SDK using Kotlin
+A wrapper class for DJI / Ryzetech Tello SDK Mini Drone using Kotlin programming language
