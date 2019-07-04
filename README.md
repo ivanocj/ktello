@@ -1,9 +1,10 @@
-# ktello
-A wrapper class for DJI / Ryzetech Tello SDK Mini Drone using Kotlin programming language
+# Ktello
+
+## A wrapper class for DJI / Ryzetech Tello SDK Mini Drone using Kotlin programming language
 
 
 Sample for a takeoff, hover for some seconds and land.
-
+```
 fun main(args: Array<String>) {
     val tello = KTello()
     tello.connect()
@@ -15,8 +16,8 @@ fun main(args: Array<String>) {
     }
     tello.close()
 }
-
-References:
+```
+# References:
 
 https://dl-cdn.ryzerobotics.com/downloads/tello/0228/Tello+SDK+Readme.pdf
 
