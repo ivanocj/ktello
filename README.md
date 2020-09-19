@@ -4,7 +4,7 @@
 
 
 Sample for a takeoff, hover for some seconds and land.
-```
+```kotlin
 fun main(args: Array<String>) {
     val tello = KTello()
     tello.connect()
